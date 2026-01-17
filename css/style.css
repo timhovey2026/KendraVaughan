@@ -1,0 +1,128 @@
+/* -------------------------------------
+   FONTS
+------------------------------------- */
+
+/* Magic Story font (self-hosted) */
+@font-face {
+  font-family: "Magic Story";
+  src: url("fonts/magic-story.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* -------------------------------------
+   BASE STYLES
+------------------------------------- */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  background: #faf9f7;
+  color: #2c2c2c;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: "Magic Story", serif;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+/* -------------------------------------
+   HEADER
+------------------------------------- */
+
+header {
+  padding: 4rem 1.5rem 3rem;
+  text-align: center;
+  background: #f2efe9;
+}
+
+header h1 {
+  font-size: 2.6rem;
+  margin-bottom: 0.4rem;
+}
+
+header h2 {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* -------------------------------------
+   BOOK COVER
+------------------------------------- */
+
+.cover {
+  display: block;
+  margin: 2.5rem auto 0;
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.15);
+  border-radius: 4px;
+}
+
+/* -------------------------------------
+   CONTENT
+------------------------------------- */
+
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.book-description {
+  font-size: 1.1rem;
+  margin-bottom: 1.6rem;
+}
+
+/* -------------------------------------
+   CALL TO ACTION
+------------------------------------- */
+
+.cta {
+  margin-top: 2.5rem;
+}
+
+.cta a {
+  display: inline-block;
+  padding: 0.85rem 2rem;
+  background: #2c2c2c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.cta a:hover {
+  background: #000;
+}
+
+/* -------------------------------------
+   FOOTER
+------------------------------------- */
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: #777;
+  background: #f2efe9;
+}
+
+/* -------------------------------------
+   MOBILE TWEAKS
+------------------------------------- */
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2.1rem;
+  }
+
+  .book-description {
+    font-size: 1.05rem;
+  }
+}
