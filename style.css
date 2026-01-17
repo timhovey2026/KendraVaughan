@@ -4,8 +4,8 @@
 
 /* Magic Story font (self-hosted) */
 @font-face {
-  font-family: 'Magic Story';
-  src: url('fonts/magic-story.otf') format('otf');
+  font-family: "Magic Story";
+  src: url("magic-story.otf") format("Open Font");
   font-weight: normal;
   font-style: normal;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Magic Story', serif;
+  font-family: "Magic Story", serif;
   font-weight: normal;
   margin-top: 0;
   color: #867BBC;
