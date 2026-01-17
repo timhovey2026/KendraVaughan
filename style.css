@@ -1,0 +1,346 @@
+/* -------------------------------------
+   GLOBAL FONTS
+------------------------------------- */
+
+/* Magic Story Font */
+@font-face {
+  font-family: "Magic Story";
+  src: url("https://static1.squarespace.com/static/61e2f5ef455d4178d3ac28a5/t/6275cb49cf3b67641ea2fa43/1651886921267/Orenari+-+Magic+Story.otf");
+}
+
+/* Assign Magic Story to major headings */
+h1, h2, h3, h4 {
+  font-family: "Magic Story" !important;
+}
+
+/* Specific overrides */
+.newsletter-form-header-title,
+div.header-menu-nav-item a,
+h1#sqs-slash-page-header,
+.collection-type-products .grid-title,
+h1.ProductItem-details-title {
+  font-family: "Magic Story" !important;
+}
+/* -------------------------------------
+   PRODUCT TITLES (SUMMARY + PRODUCT PAGE)
+------------------------------------- */
+/* FORCE Magic Story on ALL product titles for Books & Bundles page */
+#collection-65f0a5f36195c12e9aee016e 
+  .sqs-block-products .sqs-product-title,
+#collection-65f0a5f36195c12e9aee016e 
+  .sqs-block-products .sqs-product-title a,
+#collection-65f0a5f36195c12e9aee016e 
+  .summary-title,
+#collection-65f0a5f36195c12e9aee016e 
+  .summary-title a,
+#collection-65f0a5f36195c12e9aee016e 
+  .ProductsList-item-title,
+#collection-65f0a5f36195c12e9aee016e
+  .ProductItem-details .ProductItem-title,
+.ProductItem-details-title, .grid-title {
+    font-family: "Magic Story" !important;
+}
+
+/* Product detail title */
+.pdp-details .pdp-title,
+.ProductItem-details .ProductItem-title {
+    font-family: "Magic Story", sans-serif !important;
+}
+/* Product grid & category titles */
+.ProductsList-item-title,
+.ProductCard-title,
+.product-title, 
+.summary-item .summary-title {
+    font-family: "Magic Story", sans-serif !important;
+}
+/* Product block titles */
+.sqs-block-product .sqs-block-product-title {
+    font-family: "Magic Story", sans-serif !important;
+}
+
+/* Product detail page title */
+.ProductItem-details .ProductItem-title,
+.ProductDetail .product-title,
+.ProductItem-details h1,
+.sqs-product-quick-view .product-title {
+  font-family: "Magic Story" !important;
+}
+
+/* Product titles in shop grid, summary blocks, category pages */
+.sqs-block-products .sqs-product-title,
+.sqs-block-products .sqs-product-title a,
+.sqs-block-summary .summary-title,
+.sqs-block-summary .summary-title a,
+.summary-item .summary-title,
+.summary-item .summary-title a,
+.ProductList .ProductList-item-title,
+.ProductsList .ProductsList-item-title,
+.ProductCard .ProductCard-title,
+.product-card .product-card-title,
+.product-card .product-card-title a {
+  font-family: "Magic Story" !important;
+}
+
+/* Extra fallback for links */
+.sqs-block-products a.product-link,
+.sqs-block-summary a.summary-title {
+  font-family: "Magic Story" !important;
+}
+
+/* -----------------------------
+   Squarespace 7.1 / Products V2
+   — Force Magic Story on product titles
+   ----------------------------- */
+
+/* Product grid / store page (all product titles) */
+.product-title,
+.product-list-item .product-title,
+.ProductsList-item-title,
+.ProductCard-title {
+  font-family: "Magic Story", sans-serif !important;
+}
+
+/* Product detail page title */
+.product-detail .product-title,
+.pdp-details .pdp-title {
+  font-family: "Magic Story", sans-serif !important;
+}
+
+/* Mobile fallback */
+@media (max-width: 640px) {
+  .sqs-block-products .sqs-product-title,
+  .sqs-block-summary .summary-title,
+  .ProductItem-details .ProductItem-title {
+    font-family: "Magic Story" !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .category-filter-container,
+  .category-navigation.category-navigation--mobile,
+  .blog-categories-list,
+  .nested-category-children {
+    display: none !important;
+  }
+}
+
+/* -------------------------------------
+   HEADER & MENU
+------------------------------------- */
+
+.header-nav-folder-content {
+  background: rgba(223,230,221,1) !important;
+}
+
+span.header-nav-folder-item-content,
+a.header-nav-folder-item-content {
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 0px;
+  display: inline-block;
+}
+
+/* Header subtitle line */
+div.header-title a:after {
+  content: "Magical. Mystical. Meaningful.";
+  display: block;
+  font-size: 20px;
+  background-color: #fffff6;
+  line-height: 1.3;
+}
+@media screen and (max-width: 767px) {
+  div.header-title a:after {
+    font-size: 14px;
+  }
+}
+/* Hover state for folder dropdown links */
+.header-nav-folder-content a:hover {
+  color: #000;               /* darker text */
+  background-color: rgba(0,0,0,0.06);
+}
+.header-nav-folder-content li a {
+  text-indent: 0 !important;
+}
+/* Reset folder item indentation */
+.header-nav-folder-content li {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* Apply consistent indentation to links */
+.header-nav-folder-content li a {
+  padding-left: 20px;
+  display: block;
+}
+/* -------------------------------------
+   BLOG
+------------------------------------- */
+h1.BlogItem-title,
+h1.entry-title,
+a.summary-title-link,
+.blog-basic-grid h1.blog-title,
+.item-pagination-title {
+  font-family: "Magic Story" !important;
+}
+/* -------------------------------------
+   PRODUCT GALLERY / IMAGES
+------------------------------------- */
+
+.ProductItem-gallery-slides-item-image {
+  border: 2px solid #877cbd;
+  position: absolute;
+  right: 0.35%;
+  bottom: 0.45%;
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.1);
+}
+
+/* Stop slide movement on mobile */
+@media only screen and (max-width: 767px) {
+  .ProductItem-gallery-slides {
+    pointer-events: none !important;
+  }
+  .ProductItem-gallery-slides-item {
+    transform: translate(0,0) !important;
+  }
+}
+/* -------------------------------------
+   SHOPPING CART
+------------------------------------- */
+
+.cart-row .cart-row-img-wrapper .cart-row-img {
+  background: no-repeat 50% 0%;
+  background-size: contain;
+}
+
+///* Hide quantity box in Product Block */
+//.product-quantity-input {
+//  display: none !important;
+//}
+
+.product-block .productDetails .product-title {
+  font-size: 18px !important;
+  font-family: "Magic Story" !important;
+}
+/* -------------------------------------
+   EVENTS
+------------------------------------- */
+
+/* Hide View Event button */
+a.eventlist-button.sqs-editable-button.sqs-button-element--primary {
+  display: none !important;
+}
+
+/* Disable internal links */
+article.eventlist-event a[href^="/"] {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+
+/* Allow external links */
+article.eventlist-event a[href^="http"] {
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+/* Hide map links */
+a.eventitem-meta-address-maplink,
+a.eventlist-meta-address-maplink {
+  display: none !important;
+}
+
+/* Past Events styling */
+.eventitem-backlink { display: none; }
+
+.sqs-block-summary-v2 .summary-title,
+.sqs-block-summary-v2 .summary-title-link,
+.sqs-block-summary-v2 .summary-metadata-item a,
+.sqs-block-summary-v2 .summary-heading {
+  font-family: "brandon-grotesque" !important;
+  font-weight: 600;
+  font-size: 18px !important;
+}
+
+
+/* === Target only the past-events summary block by its ID === */
+#block-yui_3_17_2_1_1744836756216_3819.sqs-block-summary-v2 .summary-item.is-past .summary-title,
+#block-yui_3_17_2_1_1744836756216_3819.sqs-block-summary-v2 .summary-item.is-past .summary-title a {
+  font-family: 'brandon-grotesque', sans-serif !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+}
+
+#YOUR-BLOCK-ID.sqs-block-summary-v2 .summary-item.is-past .summary-metadata-item--date {
+  font-family: "Brandon Grotesque", "brandon-grotesque", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+/* Force Brandon Grotesque for Summary Block Past Event Titles */
+#page .summary-block-wrapper .summary-item.is-past .summary-title,
+#page .summary-block-wrapper .summary-item.is-past .summary-title a {
+    font-family: "brandon-grotesque", "Brandon Grotesque", sans-serif !important;
+    font-weight: 700 !important; /* adjust if needed */
+    font-style: normal !important;
+    letter-spacing: normal !important;
+}
+
+/* Force Brandon Grotesque for Past Event Dates (metadata headings) */
+#page .summary-block-wrapper .summary-item.is-past .summary-metadata-item--date {
+    font-family: "brandon-grotesque", "Brandon Grotesque", sans-serif !important;
+    font-weight: 400 !important;
+}
+
+/* Event details layout */
+.eventitem {
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.eventitem > div {
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  box-sizing: border-box !important;
+  text-align: center !important;
+}
+/* -------------------------------------
+   NEWSLETTER FORM
+------------------------------------- */
+
+.sqs-block-newsletter .newsletter-form-wrapper {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+.sqs-block-newsletter .newsletter-form-field-element {
+  padding: 6px 6px 6px 10px !important;
+  width: 325px !important;
+}
+
+.newsletter-form .newsletter-form-button {
+  padding: 16px 26px !important;
+}
+
+.newsletter-block .newsletter-form-field-wrapper {
+  padding: 0.25em;
+  max-width: 600px !important;
+}
+
+.newsletter-form-button-wrapper.submit-wrapper {
+  margin-top: 0px !important;
+}
+/* -------------------------------------
+   MOBILE BACKGROUND FIXES
+------------------------------------- */
+
+@media (max-width: 767px) {
+  section[data-section-id="6830e68655dbdd58a8f9b1e8"] .section-background img,
+  section[data-section-id="6355da4602b3ab299bd4913b"] .section-background img,
+  section[data-section-id="6828dde1b823d56331a750f3"] .section-background img {
+    object-position: 90% 100% !important;
+    object-fit: contain !important;
+  }
+  section[data-section-id="68ddd00c59bb6d46a0e3f11f"] .section-background img {
+    object-position: 100% 110% !important;
+    object-fit: contain !important;
+  }
+}
