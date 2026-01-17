@@ -41,7 +41,8 @@
 
 body {
   margin: 0;
-  font-family: "Brandon Grotesque", -apple Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Brandon Grotesque", -apple 
+     Roboto, Helvetica, Arial, sans-serif;
   background: var(--bg);
   color: var(--lavender);
   line-height: 1.65;
