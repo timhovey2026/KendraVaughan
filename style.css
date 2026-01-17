@@ -12,6 +12,16 @@
   font-style: normal;
   font-display: swap;
 }
+/* Brandon Grotesque font (self-hosted) */
+@font-face {
+  font-family: "Brandon Grotesque";
+  src:
+    url("./brandon-grotesque-regular.woff2") format("woff2"),
+    url("./brandon-grotesque-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* -------------------------------------
    BASE STYLES
